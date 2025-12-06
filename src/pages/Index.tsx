@@ -18,10 +18,8 @@ export default function Index() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 md:py-28 bg-gradient-subtle">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center space-y-6 animate-slide-up">
-            <p className="text-primary font-medium">Data Analyst & AI Explorer</p>
+    <section className="py-32 md:py-40 lg:py-48 min-h-screen flex flex-col items-center justify-center bg-gradient-subtle">        <div className="container">
+        <div className="max-w-5xl mx-auto text-center space-y-6 animate-slide-up">            <p className="text-primary font-medium">Data Analyst & AI Explorer</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
               Transforming data into clear insights and smarter decisions.
             </h1>
